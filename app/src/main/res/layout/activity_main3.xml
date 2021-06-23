@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_download"
+            android:scaleType="centerInside"
+             />
+        <ImageView
+            android:id="@+id/space"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="bottom"
+
+             />
+
+        <ImageView
+            android:id="@+id/set"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_home"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/space1"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="bottom"
+            />
+
+        <ImageView
+            android:id="@+id/shareim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_share"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+
+</AbsoluteLayout>

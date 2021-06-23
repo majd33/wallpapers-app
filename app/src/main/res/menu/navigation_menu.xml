@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group>
+        <item
+            android:id="@+id/refresh"
+            android:icon="@drawable/ic_n"
+            android:title="Refresh"
+            />
+        <item
+            android:id="@+id/random"
+            android:icon="@drawable/ic_n"
+            android:title="Random"
+            />
+        <item
+            android:id="@+id/us"
+            android:icon="@drawable/ic_n"
+            android:title="Contact Us"
+            />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_n"
+            android:title="Share"
+            />
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_n"
+            android:title="More Apps"
+            />
+        <item
+            android:id="@+id/pp"
+            android:icon="@drawable/ic_n"
+            android:title="Privacy Policy"
+            />
+
+    </group>
+</menu>

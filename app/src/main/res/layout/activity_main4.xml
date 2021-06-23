@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/rimage_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/rsave"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_download"
+            android:scaleType="centerInside"
+            />
+        <ImageView
+            android:id="@+id/rspace"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="bottom"
+            />
+
+        <ImageView
+            android:id="@+id/rset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_home"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/rspace1"
+            android:layout_width="15dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="bottom"
+            />
+
+        <ImageView
+            android:id="@+id/rshareim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cborder"
+            android:src="@drawable/ic_share"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+
+</AbsoluteLayout>
